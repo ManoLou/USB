@@ -296,7 +296,7 @@ uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len)
 }
 
 /* USER CODE BEGIN PRIVATE_FUNCTIONS_IMPLEMENTATION */
-_weak void CDC_ReceivedCallback(uint8_t* Buf, uint32_t Len);
+__weak void CDC_ReceivedCallback(uint8_t* Buf, uint32_t Len)
 {
 
 }
